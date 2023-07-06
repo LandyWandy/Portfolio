@@ -40,7 +40,7 @@ const Rain = () => {
     
         document.querySelector('.rain-toggle.toggle').addEventListener('click', rainToggle);
     
-        const timeoutId = setTimeout(makeItRain, 2000);
+        const timeoutId = setTimeout(makeItRain, 1500);
 
         return () => {
             document.querySelector('.rain-toggle.toggle').removeEventListener('click', rainToggle);
