@@ -7,11 +7,11 @@ function Header () {
       <div className="moon" />
       <div className="container">
         <h1>
-          <span className="aboutLine">Inspired by</span>
-          <span className="aboutLine">rain 
+          <span className="aboutLine">Hi, I'm Landon,</span>
+          <span className="aboutLine"> Full Stack Developer
           <span className="color"> & </span> 
-           committed</span>
-          <span className="aboutLine">to code.</span>
+          </span>
+          <span className="aboutLine">Perpetual Tinkerer</span>
         </h1>
         <div className="buttons">
           <a href="#projects">my portfolio</a>

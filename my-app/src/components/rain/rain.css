@@ -110,7 +110,7 @@ html {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 3;
+    z-index: 5;
   }
   
   .toggle {
@@ -145,5 +145,13 @@ html {
   
   .rain-toggle {
     top: 20px;
+  }
+
+  @media (max-width: 768px) {
+    .toggles,
+    .toggle,
+    .rain-toggle {
+      display: none;
+    }
   }
   

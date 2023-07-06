@@ -1,11 +1,13 @@
-import Rain from './components/rain.js'
-import Header from './components/header.js'
+import Rain from './components/rain/rain.js'
+import Header from './components/header/header.js'
+import Nav from './components/nav/nav.js'
 
 function App() {
   return (
     <div>
-      <Rain></Rain>
-      <Header></Header>
+      <Nav/>
+      <Rain/>
+      <Header/>
     </div>
   );
 }
