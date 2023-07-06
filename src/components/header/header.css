@@ -1,0 +1,180 @@
+*,
+*::before,
+*::after,
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import 'https://fonts.googleapis.com/css?family=Overlock:400,400i,700|Oleo+Script';
+
+html, body {
+  height: 100%;
+}
+
+body {
+  color: #252934;
+  background: #fafafa;
+  font-size: 62.5%;
+  font-family: 'Overlock', Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+a,
+a:visited {
+  color: #252934;
+  font-size: 1.4rem;
+  text-decoration: none;
+  transition: 200ms;
+}
+
+a:hover,
+a:active {
+  color: #f300b4;
+}
+
+ #welcome {
+    background: #202736;
+    background: linear-gradient(to bottom, #181d23 0%, #202736 80%);
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    margin: 0 auto;
+    z-index: 1;
+  }
+  
+  .moon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    position: fixed;
+    background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Moon.svg?sanitize=true) right 150% no-repeat;
+    background-size: 40% 40%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0;
+    animation: moon-move-in 1.2s 1s forwards;
+  }
+  
+  @keyframes moon-move-in {
+    from {
+      opacity: 0;
+      background-position: right 150%;
+    }
+    to {
+      opacity: 1;
+      background-position: top right;
+    }
+  }
+  
+
+  #welcome .container {
+    width: fit-content;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    right: 25%;
+    opacity: 0;
+    transform: translate(0, -50%);
+    animation: text-fade-in 1000ms 800ms forwards;
+  }
+  
+  @keyframes text-fade-in {
+    from {
+      right: 0;
+    }
+    to {
+      opacity: 1;
+      right: 25%;
+    }
+  }
+  
+  #welcome .container h1 {
+    font-size: 4rem;
+    font-weight: normal;
+    font-style: italic;
+    color: #fafafa;
+    line-height: 3rem;
+  }
+  
+  #welcome .container h1 .aboutLine:first-child {
+    margin-left: 1rem;
+  }
+  
+  #welcome .container h1 .aboutLine:last-child {
+    margin-left: 2rem;
+  }
+  
+  #welcome .container .buttons {
+    display: flex;
+    margin-top: 1rem;
+  }
+  
+  #welcome .container .buttons a,
+  #welcome .container .buttons a:visited {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #fafafa;
+    color: #fafafa;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+  }
+  
+  #welcome .container .buttons a:hover,
+  #welcome .container .buttons a:active {
+    border: 1px solid #f300b4;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 100px -20px #f300b4;
+  }
+  
+  #welcome .container .buttons a.cta,
+  #welcome .container .buttons a.cta:visited {
+    background: #f300b4;
+    border: 1px solid transparent;
+    color: #fafafa;
+    font-weight: bold;
+  }
+  
+  #welcome .container .buttons a.cta:hover,
+  #welcome .container .buttons a.cta:active {
+    background: transparent;
+    border: 1px solid #f300b4;
+  }
+  
+  #welcome .container .buttons a:first-child {
+    margin-right: 1rem;
+  }
+  
+  .aboutLine {
+    display: block;
+  }
+  
+  .color {
+    color: #f300b4;
+    font-style: italic;
+  }
+  
+  @media only screen and (max-width: 649px) {
+    #welcome .container {
+      right: 50%;
+      top: 30%;
+      width: 80%;
+      transform: translate(50%, 0);
+      animation: text-fade-in 1000ms 800ms forwards;
+    }
+  
+    @keyframes text-fade-in {
+      from {
+        right: 0;
+      }
+      to {
+        opacity: 1;
+        right: 50%;
+      }
+    }
+  }
