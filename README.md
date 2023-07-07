@@ -14,7 +14,7 @@ I'm always exploring new technologies and may add more to this list as the portf
 
 ## Live Site
 
-You can visit the live site at [landonheaney.com](http://www.landonheaney.com)
+You can visit the live site at [landonheaney.com](https://www.landonheaney.com)
 
 ## Feedback and Suggestions
 
