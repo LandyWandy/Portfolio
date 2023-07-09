@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import './nav.css'
 
 const Nav = props => {
@@ -10,10 +10,8 @@ const Nav = props => {
               landon
               <strong>heaney</strong>
             </p>
-            <a
-              onClick={props.toggleMenu}
-              className={props.showMenu === 'active' ? 'menu-button active' : 'menu-button'}
-            >
+            <a onClick={props.toggleMenu}
+              className={props.showMenu === 'active' ? 'menu-button active' : 'menu-button'}>
               <span />
             </a>
           </div>
