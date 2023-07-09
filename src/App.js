@@ -11,10 +11,12 @@ function App() {
   const toggleMenu = useCallback(() => {
     setMenuState(state => state ? (state === 'deactive' ? 'active' : 'deactive') : 'active');
   }, []);
-  
+
+  console.log(menuState)
+
   return (
     <React.Fragment>
-      <NavMenu toggleMenu={toggleMenu} showMenu={menuState} />
+      <NavMenu toggleMenu={toggleMenu} showMenu={menuState}/>
       <Nav toggleMenu={toggleMenu} showMenu={menuState} />
       <Rain />
       <Header />
