@@ -1,15 +1,6 @@
 import React from 'react';
 
 const Project = props => {
-  const tech = {
-    sass: 'fab fa-sass',
-    css: 'fab fa-css3-alt',
-    js: 'fab fa-js-square',
-    react: 'fab fa-react',
-    vue: 'fab fa-vuejs',
-    d3: 'far fa-chart-bar',
-    node: 'fab fa-node'
-  };
 
   const link = props.link || 'http://';
   const repo = props.repo || 'http://';
@@ -21,11 +12,6 @@ const Project = props => {
       </a>
       <div className="project-details">
         <div className="project-tile">
-          <p className="icons">
-            {props.tech.split(' ').map(t => (
-              <i className={tech[t]} key={t} />
-            ))}
-          </p>
           {props.title}{' '}
         </div>
         {props.children}

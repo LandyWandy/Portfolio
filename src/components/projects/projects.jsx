@@ -26,7 +26,6 @@ const Projects = props => {
           <Project
             title="Sentinetic"
             img={SentineticImg}
-            tech="js css react node"
             link="https://sentinetic-987fae0a7fa7.herokuapp.com/"
             repo="https://github.com/LandyWandy/Sentinetic/tree/main"
           >
@@ -44,7 +43,6 @@ const Projects = props => {
           <Project
             title="Taskhub"
             img={TaskHubImg}
-            tech="js node css"
             link="https://taskhub.herokuapp.com/login"
             repo="https://github.com/judemdonahue/TaskHub"
           >
@@ -62,7 +60,6 @@ const Projects = props => {
           <Project
             title="Portfolio"
             img={PortfolioImg}
-            tech="js node css"
             link="https://www.landonheaney.com"
             repo="https://github.com/LandyWandy/Portfolio"
           >
