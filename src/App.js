@@ -4,6 +4,7 @@ import Rain from './components/rain/rain.jsx'
 import Header from './components/header/header.jsx'
 import Nav from './components/nav/nav.jsx'
 import About from './components/about/about.jsx'
+import Projects from './components/projects/projects.jsx';
 
 
 function App() {
@@ -53,6 +54,7 @@ function App() {
       <Rain />
       <Header />
       <About />
+      <Projects />
     </React.Fragment>
   );
 }

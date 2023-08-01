@@ -9,7 +9,7 @@ const NavMenu = props => {
         <div className="menu-items">
           <ul>
             <li>
-              <a href="#welcome-section" onClick={props.toggleMenu}>
+              <a href="#welcome" onClick={props.toggleMenu}>
                 HOME
               </a>
             </li>
