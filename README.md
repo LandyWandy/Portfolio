@@ -16,10 +16,6 @@ Portfolio page built using React. A dynamic and modern website that showcases my
 
 ![Portfolio-Intro](./src/Images/HomePage.PNG)
 
-![Portfolio-About](./src/images/AboutPage.PNG)
-
-![Portfolio-Projects](./src/images/ProjectPage.PNG)
-
 ## License
 This application is covered under the MIT License.
 
