@@ -1,23 +1,25 @@
-# Landon's Portfolio
+# < Portfolio > ![License](https://img.shields.io/static/v1?label=license&message=MIT&color=yellowgreen) 
 
-Hello! Welcome to the repository for my personal portfolio, currently a work in progress. I'm using React to build the site, and I'm continually refining and adding new features.
 
-## Tech Stack
+## Description
+Portfolio page built using React. A dynamic and modern website that showcases my professional achievements, projects, and skills. It features a clean layout with interactive elements, presenting my completed works, technical competencies, and work experience. The page is responsive and user-friendly, providing a captivating digital resume to potential employers and collaborators.
 
-The website is built primarily with the following technologies:
+## Link
+[Deployed-Portfolio](https://www.landonheaney.com)
 
-- [React](https://reactjs.org/)
-- CSS
-- JavaScript
+## Technologies-Used
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
 
-I'm always exploring new technologies and may add more to this list as the portfolio evolves.
+![Portfolio-Intro](./src/Images/HomePage.PNG)
+![Portfolio-About](./src/images/AboutPage.PNG)
+![Portfolio-Projects](./src/images/ProjectPage.PNG)
 
-## Live Site
+## License
+This application is covered under the MIT License.
 
-You can visit the live site at [landonheaney.com](https://www.landonheaney.com)
-
-## Feedback and Suggestions
-
-As this portfolio is still in progress, I would appreciate any feedback or suggestions. Feel free to submit an issue or pull request.
-
-Thank you for stopping by!
+## Questions
+Please don't hesitate to reach out to me if you have any inquiries, you can do so by contacting me through my GitHub profile [LandyWandy](https://github.com/LandyWandy) or by sending an email to landonheaney@gmail.com.
