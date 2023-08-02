@@ -15,7 +15,9 @@ Portfolio page built using React. A dynamic and modern website that showcases my
 ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
 
 ![Portfolio-Intro](./src/Images/HomePage.PNG)
+
 ![Portfolio-About](./src/images/AboutPage.PNG)
+
 ![Portfolio-Projects](./src/images/ProjectPage.PNG)
 
 ## License
