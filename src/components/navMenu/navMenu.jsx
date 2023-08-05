@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './navMenu.css';
+import SocialLinks from '../socials/socials';
 
 const NavMenu = props => {
     return (
@@ -29,6 +30,7 @@ const NavMenu = props => {
               </a>
             </li>
           </ul>
+          <SocialLinks />
         </div>
       </div>
     );

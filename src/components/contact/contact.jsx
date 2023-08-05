@@ -1,5 +1,7 @@
 import React from 'react';
 import './contact.css';
+import '../socials/socials'
+import SocialLinks from '../socials/socials';
 
 const Contact = props => {
   return (
@@ -20,6 +22,7 @@ const Contact = props => {
               :
             </p>
           </div>
+          <SocialLinks />
         </div>
         <form id="contact-form" action="#">
           <input placeholder="Name" name="name" type="text" required />
