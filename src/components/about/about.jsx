@@ -29,7 +29,7 @@ const About = props => {
               For the front-end I usually work with Javascript, React, HTML5 and CSS3. I have experience with Electron, JQuery, Bootstrap, and version control with Git. 
             </p>
             <p>
-              For the back-end I work with Node.js, and am experienced with MongoDB, MySQL, GraphQL and Jest. I also have a firm foundation in database management, network management, and the use of Bash and Powershell scripts for bug troubleshooting and fixes.
+              For the back-end I work with Node.js and Python. I am experienced with MongoDB, MySQL, GraphQL and Jest. I also have a firm foundation in database management, network management, and the use of Bash and Powershell scripts for bug troubleshooting and fixes.
             </p>
           </div>
           <div className="desc">

@@ -7,7 +7,12 @@ const Project = props => {
 
   return (
     <div className="project">
-      <a className="project-link" href={link} target="_blank" rel="noopener noreferrer">
+      <a
+        className="project-link"
+        href={props.isProfessional ? undefined : link}
+        target={props.isProfessional ? undefined : "_blank"}
+        rel="noopener noreferrer"
+      >
         <img className="project-image" src={props.img} alt={'Screenshot of ' + props.title} />
       </a>
       <div className="project-details">
@@ -16,12 +21,12 @@ const Project = props => {
         </div>
         {props.children}
         <div className="buttons">
-          <a href={repo} target="_blank" rel="noopener noreferrer">
-            View source <i className="fas fa-external-link-alt" />
-          </a>
-          {/* <a href={link} target="_blank" rel="noopener noreferrer">
-            Try it Live <i className="fas fa-external-link-alt" />
-          </a> */}
+          {!props.isProfessional && (
+            <a href={repo} target="_blank" rel="noopener noreferrer">
+              View source <i className="fas fa-external-link-alt" />
+            </a>
+          )}
+          {/* If you want to have a live link for professional projects in the future, you can conditionally render it here */}
         </div>
       </div>
     </div>
